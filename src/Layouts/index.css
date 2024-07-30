@@ -1,0 +1,29 @@
+.layout-container{
+    display: flex;
+}
+
+.layout-content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: brightness(10%);
+}
+
+.layout-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("../assets/form.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

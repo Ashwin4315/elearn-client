@@ -1,0 +1,10 @@
+.ui-btn{
+    padding: 0.4rem 2rem ;
+    border-radius: 4px;
+    background-color: #4927a8;
+    font-weight: bolder;
+    color: rgb(245, 245, 245);
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}

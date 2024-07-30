@@ -1,0 +1,14 @@
+.display-card-container h3{
+   margin-bottom: 2rem;
+   border-left: 8px solid #4d20ca;
+   padding-left: 1rem;
+   backdrop-filter: blur(20px) brightness(60%);
+   padding: 1rem;
+
+
+}
+.display-card-sub-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

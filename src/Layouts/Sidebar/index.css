@@ -1,0 +1,34 @@
+.sidebar-container {
+    width: 15vw;
+    height: 100vh;
+    background-color: #000000;
+    padding: 3rem 1rem;
+}
+
+.sidebar-sub-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-sub-container-sign-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.sidebar-sub-container-pages ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sidebar-sub-container-pages ul li {
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: black ;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.quiz-container form label{
+
+    color: rgb(11, 11, 11);
+
+}
+
+.quiz-container p {
+    margin: 0.4rem 0rem;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.quiz-container h2 {
+
+    color: rgb(249, 15, 15) !important;
+
+}

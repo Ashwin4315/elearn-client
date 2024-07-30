@@ -1,0 +1,7 @@
+.course-btn-container{
+    margin:7rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}

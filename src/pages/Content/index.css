@@ -1,0 +1,21 @@
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.content-container p{
+
+    color: black;
+    font-size: 1.2rem;
+   
+}
+.content-container h2{
+
+    color: rgb(190, 30, 30);
+    font-size: 1.6rem;
+   
+}
+

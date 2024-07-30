@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import { Routes, Route, useNavigate } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
+import Layout from './Layouts';
+import Course from './pages/Course';
+import Profile from './pages/Profile';
+import MyLearning from './pages/MyLearning';
+import Detail from './pages/Detail';
+import ForgotPassword from './pages/ForgotPassword';
+import ResetPassword from './pages/ResetPassword';
+import Content from './pages/Content';
 import './App.css';
+import Quiz from './pages/Quiz';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/course' element={<Course />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<SignUp />} />
+          <Route path='/forgot' element={<ForgotPassword />} />
+          <Route path='/reset/:token' element={<ResetPassword />} />
+          <Route path='/mylearning' element={<MyLearning />} />
+          <Route path='/detail/:id' element={<Detail />} />
+          <Route path='/content/:id' element={<Content />} />
+          <Route path='/quiz/:id' element={<Quiz />} />
+        </Routes>
+      </Layout>
     </div>
   );
 }
